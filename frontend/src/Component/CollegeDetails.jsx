@@ -45,48 +45,48 @@ class CollegeDetail extends Component {
 
         render() {
             return (
-            <div class="pt-5 pb-5 pr-5 pl-5">
-            <h2 class="text-center">College Details</h2>
-            <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6">
+            <div className="pt-5 pb-5 pr-5 pl-5">
+            <h2 className="text-center">College Details</h2>
+            <div className="row">
+                <div className="col-3"></div>
+                <div className="col-6">
                 
                     <table class="table table-bordered table-light" style ={{backgroundColor : "#f7f7f7"}}>
                         <tbody>
                         <tr>
-                            <td class="text-center">ID</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state._id}</td>
+                            <td className="text-center">ID</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state._id}</td>
                         </tr>
                         <tr>
-                            <td class="text-center">Name</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state.name}</td>
+                            <td className="text-center">Name</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state.name}</td>
                         </tr>
                         <tr>
-                            <td class="text-center">City</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state.city}</td>
+                            <td className="text-center">City</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state.city}</td>
                         </tr>
                         <tr>
-                            <td class="text-center">Courses</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state.courses}</td>
+                            <td className="text-center">Courses</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state.courses}</td>
                         </tr>
                         <tr>
-                            <td class="text-center">Similar Colleges</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center"><Link to={"/collegeList/bysimilarcolleges/"+this.state._id}>Show Colleges </Link></td>
+                            <td className="text-center">Similar Colleges</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center"><Link to={"/collegeList/bysimilarcolleges/"+this.state._id}>Show Colleges </Link></td>
                         </tr>
                         <tr>
-                            <td class="text-center">Student List</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center"><Link to={"/studentList/"+this.state._id}>Show Students </Link> </td>
+                            <td className="text-center">Student List</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center"><Link to={"/studentList/"+this.state._id}>Show Students </Link> </td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col-3"></div>
+                <div className="col-3"></div>
             </div>
             <div>
             </div>

@@ -39,10 +39,10 @@ class StudentList extends Component {
     }
     render() {
         return (
-            <div className=" pt-5 pb-5">
+            <div className=" mt-5 mb-5 ml-5 mr-5 pt-5 pb-5 pl-3 pr-3">
                
             <div style={{
-           padding: "5em",
+           //padding: "5em",
            marginTop: "80px",
         }}>
              <h2 className="text-center">Student List</h2>

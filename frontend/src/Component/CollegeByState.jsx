@@ -65,10 +65,10 @@ class CollegeByState extends Component {
 
     render(){
     return (
-        <div className=" pt-5 pb-5">
-            <h2 class="text-center">Colleges Based On States</h2>
+        <div className=" mt-5 mb-5 ml-5 mr-5 pt-5 pb-5 pl-3 pr-3">
+            <h2 className="text-center">Colleges Based On States</h2>
             <div style={{
-           padding: "5em",
+           //padding: "5em",
            display: "flex",
            justifyContent: "space-around",
            marginTop: "80px",
@@ -79,12 +79,12 @@ class CollegeByState extends Component {
                         data={this.state.data}
                         options={this.state.options}
                         width= "100%"
-                        height ="700px"
+                        height ="400px"
                         style = {{marginLeft : "auto", marginRight : "auto", width : "100%"}}
                         legendToggle
             />
             </div>
-            <div className="table-responsive bg-light" id="tb" style={{width:"50%" , height : "600px"}}>
+            <div className="table-responsive bg-light" id="tb" style={{width:"50%" , height : "400px"}}>
                 <table
                     className="table table-bordered table-hover text-center"
                 >

@@ -6,11 +6,12 @@ import CollegeDetails from './Component/CollegeDetails'
 import StudentDetails from './Component/StudentDetails'
 import StudentList from './Component/StudentList'
 import CollegeList from './Component/CollegeList';
+import './App.css';
 
 const App = () => {
 
   return (
-    <div>
+    <div className ="App">
       <Router>
           <nav className="navbar navbar-expand-sm navbar-dark" style={{backgroundColor: "#A93434"}}>
             <ul className="navbar-nav">

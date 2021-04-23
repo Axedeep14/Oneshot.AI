@@ -46,43 +46,43 @@ class StudentDetail extends Component {
 
         render() {
             return (
-            <div class="pt-5 pb-5 pr-5 pl-5">
-            <h2 class="text-center">Student Details</h2>
-            <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6">
+            <div className="pt-5 pb-5 pr-5 pl-5">
+            <h2 className="text-center">Student Details</h2>
+            <div className="row">
+                <div className="col-3"></div>
+                <div className="col-6">
                 
-                    <table class="table table-bordered table-light " style={{backgroundColor: "#f7f7f7"}}>
+                    <table className="table table-bordered table-light " style={{backgroundColor: "#f7f7f7"}}>
                         <tbody>
                         <tr>
-                            <td class="text-center">ID</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state._id}</td>
+                            <td className="text-center">ID</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state._id}</td>
                         </tr>
                         <tr>
-                            <td class="text-center">Name</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state.name}</td>
+                            <td className="text-center">Name</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state.name}</td>
                         </tr>
                         <tr>
-                            <td class="text-center">Year of Batch</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state.year_of_batch}</td>
+                            <td className="text-center">Year of Batch</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state.year_of_batch}</td>
                         </tr>
                         <tr>
-                            <td class="text-center">College Id</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state.college_id}</td>
+                            <td className="text-center">College Id</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state.college_id}</td>
                         </tr>
                         <tr>
-                            <td class="text-center">Skills</td>
-                            <td class="text-center">:</td>
-                            <td class="text-center">{this.state.skills}</td>
+                            <td className="text-center">Skills</td>
+                            <td className="text-center">:</td>
+                            <td className="text-center">{this.state.skills}</td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col-3"></div>
+                <div className="col-3"></div>
             </div>
             </div>
             );

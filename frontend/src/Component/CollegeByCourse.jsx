@@ -65,10 +65,10 @@ class CollegeByCourse extends Component {
 
     render(){
         return (
-<div className="pt-5 pb-5">
-    <h2 class="text-center">Colleges Based On Courses</h2>
+<div className="mt-5 mb-5 ml-5 mr-5 pt-5 pb-5 pb-5 pl-3 pr-3">
+    <h2 className="text-center">Colleges Based On Courses</h2>
             <div style={{
-           padding: "5em",
+           //padding: "5em",
            display: "flex",
            justifyContent: "space-around",
            marginTop: "80px",
