@@ -5,15 +5,19 @@ const db = "mongodb+srv://deepak:1234@cluster0.7f3dc.mongodb.net/OneshotAI?retry
 const college_route = require("./routes/route_college");
 const student_route = require("./routes/route_student");
 const bodyParser = require("body-parser");
+const path = require('path');
 
 app.use(bodyParser.urlencoded({     extended: false  })); 
 app.use(bodyParser.json());
 
-app.get('/',(req,res) =>{
-    res.send("hello from server");
-})
 app.use('/college',college_route);
 app.use('/student',student_route);
+
+
+app.use(express.static(path.join(__dirname,  'frontend','build')));
+app.get("*", (req, res) => {
+          res.sendFile(path.join(__dirname,  'frontend','build','index.html'));
+});
 
 mongoose.Promise=global.Promise;
 
